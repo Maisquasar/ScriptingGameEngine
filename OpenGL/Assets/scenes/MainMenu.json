@@ -1,0 +1,194 @@
+{
+
+	"Name" : "Default",
+	"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+	"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+	"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+	"Component" : [],
+	"Children":
+	[{
+		"Name" : "SkyBox.obj",
+		"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "skybox_back",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_back",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_2_back.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_left",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_left",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_3_left.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_top",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_top",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_4_top.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_right",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_right",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_1_right.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_front",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_front",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_0_front.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_down",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_down",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_5_down.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "Directional Light 0",
+		"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" :
+		[{
+			"Type" : "Directional Light",
+			"Index" : 0, 
+			"Ambient" : [ 1.000000, 1.000000, 1.000000, 1.000000 ],
+			"Diffuse" : [ 0.200000, 0.200000, 0.200000, 1.000000 ],
+			"Specular" : [ 0.200000, 0.200000, 0.200000, 1.000000 ],
+			"Direction" : [ 0.000000, 0.000000, 0.000000 ], 
+			"Strenght" : [ 0.500000, 0.500000 ]
+		},
+		{
+			"Type" : "MainMenu",
+			"SceneName" : "Test2"
+		}],
+		"Children": []
+	}]
+}

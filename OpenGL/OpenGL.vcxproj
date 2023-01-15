@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Lib|ARM">
+      <Configuration>Lib</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Lib|Win32">
+      <Configuration>Lib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Lib|x64">
+      <Configuration>Lib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\glad\glad.h" />
+    <ClInclude Include="Includes\GLFW\glfw3.h" />
+    <ClInclude Include="Includes\GLFW\glfw3native.h" />
+    <ClInclude Include="Includes\ImGui\imconfig.h" />
+    <ClInclude Include="Includes\ImGui\imgui.h" />
+    <ClInclude Include="Includes\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="Includes\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Includes\ImGui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="Includes\ImGui\imgui_internal.h" />
+    <ClInclude Include="Includes\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Includes\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Includes\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Includes\KHR\khrplatform.h" />
+    <ClInclude Include="Includes\STB_Image\stb_image.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\includes\Core\App.hpp" />
+    <ClInclude Include="Source\includes\Core\DataStructure\Node.hpp" />
+    <ClInclude Include="Source\includes\Core\DataStructure\PlayerPrefs.hpp" />
+    <ClInclude Include="Source\includes\Core\DataStructure\Serializer.hpp" />
+    <ClInclude Include="Source\includes\Core\DataStructure\ThreadManager.hpp" />
+    <ClInclude Include="Source\includes\Core\Debug\Assertions.hpp" />
+    <ClInclude Include="Source\includes\Core\Debug\Commands.hpp" />
+    <ClInclude Include="Source\includes\Core\Debug\Log.hpp" />
+    <ClInclude Include="Source\includes\Core\Input.hpp" />
+    <ClInclude Include="Source\includes\Core\Maths\Maths.hpp" />
+    <ClInclude Include="Source\includes\LowRenderer\Camera.hpp" />
+    <ClInclude Include="Source\includes\LowRenderer\FrameBuffer.hpp" />
+    <ClInclude Include="Source\includes\LowRenderer\Light.hpp" />
+    <ClInclude Include="Source\includes\LowRenderer\LightManager.hpp" />
+    <ClInclude Include="Source\includes\LowRenderer\Mesh.hpp" />
+    <ClInclude Include="Source\includes\LowRenderer\ShadowMap.hpp" />
+    <ClInclude Include="Source\includes\LowRenderer\Transform.hpp" />
+    <ClInclude Include="Source\includes\Physic\Colliders.hpp" />
+    <ClInclude Include="Source\includes\Physic\CollisionManager.hpp" />
+    <ClInclude Include="Source\includes\Physic\Rigidbody.hpp" />
+    <ClInclude Include="Source\includes\Resources\Component.hpp" />
+    <ClInclude Include="Source\includes\Resources\Components\CameraLock.hpp" />
+    <ClInclude Include="Source\includes\Resources\Components\MainMenu.hpp" />
+    <ClInclude Include="Source\includes\Resources\Components\PauseMenu.hpp" />
+    <ClInclude Include="Source\includes\Resources\Components\PlayerScript.hpp" />
+    <ClInclude Include="Source\includes\Resources\Components\RotationController.hpp" />
+    <ClInclude Include="Source\includes\Resources\IResource.hpp" />
+    <ClInclude Include="Source\includes\Resources\Material.hpp" />
+    <ClInclude Include="Source\includes\Resources\Model3D.hpp" />
+    <ClInclude Include="Source\includes\Resources\PythonScript.hpp" />
+    <ClInclude Include="Source\includes\Resources\PythonScriptManager.hpp" />
+    <ClInclude Include="Source\includes\Resources\ResourcesManager.hpp" />
+    <ClInclude Include="Source\includes\Resources\SceneLoader.hpp" />
+    <ClInclude Include="Source\includes\Resources\Shader.hpp" />
+    <ClInclude Include="Source\includes\Resources\Texture.hpp" />
+    <ClInclude Include="Source\includes\Resources\TxtFile.hpp" />
+    <ClInclude Include="Source\includes\Ui\EditorUi.hpp" />
+    <ClInclude Include="Source\includes\Ui\FileExplorer.hpp" />
+    <ClInclude Include="Source\includes\Ui\Inspector.hpp" />
+    <ClInclude Include="Source\includes\Ui\LoadingWindow.hpp" />
+    <ClInclude Include="Source\includes\Ui\UiWindow.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\glad\glad.c" />
+    <ClCompile Include="Includes\ImGui\imgui.cpp" />
+    <ClCompile Include="Includes\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Includes\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Includes\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="Includes\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Includes\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Includes\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="RotationController.cpp" />
+    <ClCompile Include="Source\src\Core\App.cpp" />
+    <ClCompile Include="Source\src\Core\DataStructure\FileExplorer.cpp" />
+    <ClCompile Include="Source\src\Core\DataStructure\Inspector.cpp" />
+    <ClCompile Include="Source\src\Core\DataStructure\Node.cpp" />
+    <ClCompile Include="Source\src\Core\DataStructure\PlayerPrefs.cpp" />
+    <ClCompile Include="Source\src\Core\DataStructure\Serializer.cpp" />
+    <ClCompile Include="Source\src\Core\DataStructure\ThreadManager.cpp" />
+    <ClCompile Include="Source\src\Core\Debug\Commands.cpp" />
+    <ClCompile Include="Source\src\Core\Debug\Log.cpp" />
+    <ClCompile Include="Source\src\Core\Input.cpp" />
+    <ClCompile Include="Source\src\Core\main.cpp" />
+    <ClCompile Include="Source\src\Core\Maths\Maths.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\Camera.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\FrameBuffer.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\Light.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\LightManager.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\Mesh.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\Shader.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\ShadowMap.cpp" />
+    <ClCompile Include="Source\src\LowRenderer\Transform.cpp" />
+    <ClCompile Include="Source\src\Physics\Colliders.cpp" />
+    <ClCompile Include="Source\src\Physics\CollisionManager.cpp" />
+    <ClCompile Include="Source\src\Physics\Rigidbody.cpp" />
+    <ClCompile Include="Source\src\Resources\Component.cpp" />
+    <ClCompile Include="Source\src\Resources\Components\CameraLock.cpp" />
+    <ClCompile Include="Source\src\Resources\Components\MainMenu.cpp" />
+    <ClCompile Include="Source\src\Resources\Components\PauseMenu.cpp" />
+    <ClCompile Include="Source\src\Resources\Components\PlayerScript.cpp" />
+    <ClCompile Include="Source\src\Resources\IResource.cpp" />
+    <ClCompile Include="Source\src\Resources\Material.cpp" />
+    <ClCompile Include="Source\src\Resources\Model3D.cpp" />
+    <ClCompile Include="Source\src\Resources\PythonScript.cpp" />
+    <ClCompile Include="Source\src\Resources\PythonScriptManager.cpp" />
+    <ClCompile Include="Source\src\Resources\ResourcesManager.cpp" />
+    <ClCompile Include="Source\src\Resources\SceneLoader.cpp" />
+    <ClCompile Include="Source\src\Resources\Texture.cpp" />
+    <ClCompile Include="Source\src\Resources\TxtFile.cpp" />
+    <ClCompile Include="Source\src\Ui\EditorUi.cpp" />
+    <ClCompile Include="Source\src\Ui\LoadingWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\includes\Core\Maths\Maths.inl" />
+    <None Include="Source\scripts\Camera.py" />
+    <None Include="Source\scripts\SceneLoading.py" />
+    <None Include="Source\scripts\PlayerScript.py" />
+    <None Include="Source\scripts\Rigidbody.py" />
+    <None Include="Source\scripts\SceneSaving.py" />
+    <None Include="Source\shaders\DefaultShader\fragment.glsl" />
+    <None Include="Source\shaders\DefaultShader\vertex.glsl" />
+    <None Include="Source\shaders\NoLightsShader\fragment.glsl" />
+    <None Include="Source\shaders\NoLightsShader\vertex.glsl" />
+    <None Include="Source\shaders\NormalMappingShader\fragment.glsl" />
+    <None Include="Source\shaders\NormalMappingShader\vertex.glsl" />
+    <None Include="Source\shaders\NormalShader\fragment.glsl" />
+    <None Include="Source\shaders\NormalShader\vertex.glsl" />
+    <None Include="Source\shaders\RGBShader\fragment.glsl" />
+    <None Include="Source\shaders\RGBShader\vertex.glsl" />
+    <None Include="Source\shaders\ScreenShader\BlackAndWhite\fragment.glsl" />
+    <None Include="Source\shaders\ScreenShader\BlackAndWhite\vertex.glsl" />
+    <None Include="Source\shaders\ScreenShader\DefaultScreenShader\fragment.glsl" />
+    <None Include="Source\shaders\ScreenShader\DefaultScreenShader\vertex.glsl" />
+    <None Include="Source\shaders\ScreenShader\InverseShader\fragment.glsl" />
+    <None Include="Source\shaders\ScreenShader\InverseShader\vertex.glsl" />
+    <None Include="Source\shaders\ScreenShader\KernelShader\fragment.glsl" />
+    <None Include="Source\shaders\ScreenShader\KernelShader\vertex.glsl" />
+    <None Include="Source\shaders\ScreenShader\TheDrugOne\fragment.glsl" />
+    <None Include="Source\shaders\ScreenShader\TheDrugOne\vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{899213ee-72a1-400f-9a48-02fe754bfa4a}</ProjectGuid>
+    <RootNamespace>OpenGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Lib|Win32'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Lib|ARM'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Lib|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;C:\Users\r.bourgogne\Documents\OpenGlPython\x64\Lib;\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;C:\Users\r.bourgogne\Documents\OpenGlPython\x64\Lib;\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Libs;$(LibraryPath);C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;C:\Users\r.bourgogne\Documents\OpenGlPython\x64\Lib;\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Libs;$(LibraryPath);\Libs;D:\Code\OpenGL_Python\OpenGL\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Lib|Win32'">
+    <TargetExt>.pyd</TargetExt>
+    <LibraryPath>C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;$(LibraryPath);\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Lib|ARM'">
+    <TargetExt>.pyd</TargetExt>
+    <LibraryPath>C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;$(LibraryPath);\Libs</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Lib|x64'">
+    <TargetExt>.pyd</TargetExt>
+    <LibraryPath>C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Libs;$(LibraryPath);\Libs</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\AppData\Roaming\Python\include;\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\AppData\Roaming\Python\include;\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\AppData\Roaming\Python\include;\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\AppData\Roaming\Python\include;\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Headers;%(AdditionalIncludeDirectories);C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\AppData\Roaming\Python\include;\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Headers;%(AdditionalIncludeDirectories);C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\AppData\Roaming\Python\include;\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Lib|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\pybind11;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes;$(ProjectDir)Headers;%(AdditionalIncludeDirectories);\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>NDEBUG </PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Lib|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\pybind11;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes;$(ProjectDir)Headers;%(AdditionalIncludeDirectories);\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>NDEBUG </PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Lib|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\Python;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes\pybind11;C:\Users\r.bourgogne\Documents\OpenGlPython\OpenGL\Includes;$(ProjectDir)Headers;%(AdditionalIncludeDirectories);\Includes\Python</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PreprocessorDefinitions>NDEBUG </PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

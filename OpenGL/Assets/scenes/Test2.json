@@ -1,0 +1,1471 @@
+{
+
+	"Name" : "Test2",
+	"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+	"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+	"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+	"Component" : [],
+	"Children":
+	[{
+		"Name" : "Mario.obj",
+		"Local Position": [ 0.000000, 2.600000, -5.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "Mario",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Mario.obj::Mario",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/Mario.png",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Sphere Collider",
+				"Radius" : 1.000000,
+				"Center" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 0
+			},
+			{
+				"Type" : "Camera Lock",
+				"Enable" : 1
+			},
+			{
+				"Type" : "PlayerScript",
+				"Speed" : 5.000000,
+				"Jump" : 5.000000
+			},
+			{
+				"Type" : "Rigidbody",
+				"Gravity" : -9.810000,
+				"Mass" : 1.000000,
+				"Max" : 10.000000,
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ]
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "TestScene.obj",
+		"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "Cube.001",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "TestScene.obj::Cube.001",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/grass.png",
+					"Filter": 9728,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 11.000000, 0.700000, 11.600000 ],
+				"Offset" : [ 0.000000, -0.940000, 0.000000 ],
+				"Friction" : [ 1.000000, 0.860000, 0.860000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "Directional Light",
+		"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" :
+		[{
+			"Type" : "Directional Light",
+			"Index" : 1, 
+			"Ambient" : [ 1.000000, 1.000000, 1.000000, 1.000000 ],
+			"Diffuse" : [ 0.000000, 0.000000, 0.000000, 1.000000 ],
+			"Specular" : [ 0.000000, 0.000000, 0.000000, 1.000000 ],
+			"Direction" : [ 0.000000, 0.000000, 0.000000 ], 
+			"Strenght" : [ 0.500000, 0.500000 ]
+		}],
+		"Children": []
+	},
+	{
+
+		"Name" : "pillar.obj",
+		"Local Position": [ 0.000000, -0.260000, -1.900000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 2.000000, 2.000000, 2.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "2Pillar",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" : [],
+			"Children":
+			[{
+				"Name" : "Pilar1",
+				"Local Position": [ -1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			},
+			{
+
+				"Name" : "Pilar2",
+				"Local Position": [ 1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			}]
+		},
+		{
+
+			"Name" : "2Pillar",
+			"Local Position": [ 0.000000, 0.000000, 2.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" : [],
+			"Children":
+			[{
+				"Name" : "Pilar1",
+				"Local Position": [ -1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			},
+			{
+
+				"Name" : "Pilar2",
+				"Local Position": [ 1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			}]
+		},
+		{
+
+			"Name" : "2Pillar",
+			"Local Position": [ 0.000000, 0.000000, 4.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" : [],
+			"Children":
+			[{
+				"Name" : "Pilar1",
+				"Local Position": [ -1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			},
+			{
+
+				"Name" : "Pilar2",
+				"Local Position": [ 1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			}]
+		},
+		{
+
+			"Name" : "2Pillar",
+			"Local Position": [ 0.000000, 0.000000, 6.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" : [],
+			"Children":
+			[{
+				"Name" : "Pilar1",
+				"Local Position": [ -1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			},
+			{
+
+				"Name" : "Pilar2",
+				"Local Position": [ 1.000000, 0.000000, 0.000000 ], 
+				"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+				"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+				"Component" :
+				[{
+					"Type" : "Mesh",
+					"Mesh Name" : "pillar.obj::dungoen_pillar_Mesh",
+					"Material":{
+						"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+						"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+						"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+						"Shininess" : 32.000000,
+						"Normal" : ""
+					},
+					"Texture":{
+						"Name": "Assets/textures/pillar.png",
+						"Filter": 9729,
+						"Wrapping": 10497
+					},
+					"Shader" : "Source/shaders/DefaultShader"
+				},
+				{
+					"Type" : "Box Collider",
+					"Size" : [ 0.600000, 2.000000, 0.600000 ],
+					"Offset" : [ 0.000000, 1.000000, 0.000000 ],
+					"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+					"Static" : 1
+				}],
+				"Children": []
+			}]
+		}]
+	},
+	{
+
+		"Name" : "SkyBox.obj",
+		"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "skybox_back",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_back",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.502000, 0.502000, 0.502000 ],
+					"Specular" : [ 0.000000, 0.000000, 0.000000 ],
+					"Shininess" : 500.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_2_back.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_left",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_left",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.502000, 0.502000, 0.502000 ],
+					"Specular" : [ 0.000000, 0.000000, 0.000000 ],
+					"Shininess" : 500.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_3_left.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_top",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_top",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.502000, 0.502000, 0.502000 ],
+					"Specular" : [ 0.000000, 0.000000, 0.000000 ],
+					"Shininess" : 500.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_4_top.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_right",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_right",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.502000, 0.502000, 0.502000 ],
+					"Specular" : [ 0.000000, 0.000000, 0.000000 ],
+					"Shininess" : 500.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_1_right.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_front",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_front",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.502000, 0.502000, 0.502000 ],
+					"Specular" : [ 0.000000, 0.000000, 0.000000 ],
+					"Shininess" : 500.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_0_front.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "skybox_down",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "SkyBox.obj::skybox_down",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.502000, 0.502000, 0.502000 ],
+					"Specular" : [ 0.000000, 0.000000, 0.000000 ],
+					"Shininess" : 500.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/stormcloud_5_down.png",
+					"Filter": 9729,
+					"Wrapping": 33071
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "Triforce.obj",
+		"Local Position": [ 0.000000, 10.850000, -24.450001 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" :
+		[{
+			"Type" : "Box Collider",
+			"Size" : [ 5.270000, 1.700000, 1.000000 ],
+			"Offset" : [ 0.000000, -2.910000, 0.000000 ],
+			"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+			"Static" : 1
+		}],
+		"Children":
+		[{
+			"Name" : "Material.097_59C4DE66_c.png",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 0.500000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Triforce.obj::Material.097_59C4DE66_c.png",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.800000, 0.800000, 0.800000 ],
+					"Specular" : [ 0.500000, 0.500000, 0.500000 ],
+					"Shininess" : 250.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/Triforce.png",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "staire",
+		"Local Position": [ 0.000000, 0.600000, -11.600000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "Node",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.240000, 0.210000, 0.730000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/grass.png",
+					"Filter": 9728,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 1.240000, 0.210000, 0.730000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ 0.000000, 1.500000, -3.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.240000, 0.210000, 0.730000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/grass.png",
+					"Filter": 9728,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 1.240000, 0.210000, 0.730000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ 0.000000, 3.000000, -6.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.240000, 0.210000, 0.730000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/grass.png",
+					"Filter": 9728,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 1.240000, 0.210000, 0.730000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ 0.000000, 4.500000, -9.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.240000, 0.210000, 0.730000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/grass.png",
+					"Filter": 9728,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 1.240000, 0.210000, 0.730000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "mojo.obj",
+		"Local Position": [ 7.750000, -0.300000, -8.000000 ], 
+		"Local Rotation": [ 0.000000, 329.399994, 0.000000 ], 
+		"Local Scale": [ 0.010000, 0.010000, 0.010000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "material_0",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 0.500000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "mojo.obj::material_0",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 0.800000, 0.800000, 0.800000 ],
+					"Specular" : [ 0.500000, 0.500000, 0.500000 ],
+					"Shininess" : 250.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/0.png",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "Tobogant",
+		"Local Position": [ 0.000000, -3.300000, 16.299999 ], 
+		"Local Rotation": [ 25.500000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" :
+		[{
+			"Type" : "Box Collider",
+			"Size" : [ 2.500000, 0.360000, 5.410000 ],
+			"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+			"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+			"Static" : 1
+		}],
+		"Children":
+		[{
+			"Name" : "Cube",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 2.510000, 0.350000, 5.420000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/grass.png",
+					"Filter": 9728,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "TestScene.obj",
+		"Local Position": [ 0.000000, -5.000000, 32.849998 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "Cube.001",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "TestScene.obj::Cube.001",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/grass.png",
+					"Filter": 9728,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 11.000000, 0.700000, 11.600000 ],
+				"Offset" : [ 0.000000, -0.940000, 0.000000 ],
+				"Friction" : [ 1.000000, 0.860000, 0.860000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "WALL",
+			"Local Position": [ 0.000000, 1.250000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 5.000000, 1.500000, 0.500000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/Brick_Wall_019_basecolor.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 5.000000, 1.500000, 0.500000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ 0.000000, 0.750000, 7.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Sphere.obj::Sphere",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Sphere Collider",
+				"Radius" : 1.000000,
+				"Center" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "Jump",
+		"Local Position": [ -10.000000, -5.000000, 33.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" : [],
+		"Children":
+		[{
+			"Name" : "Node",
+			"Local Position": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -3.000000, 0.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -6.000000, 1.000000, 0.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -8.000000, 2.000000, -0.650000 ], 
+			"Local Rotation": [ 0.000000, 315.899994, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -9.000000, 3.000000, -2.900000 ], 
+			"Local Rotation": [ 0.000000, 270.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -9.000000, 4.000000, -6.000000 ], 
+			"Local Rotation": [ 0.000000, 270.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -9.000000, 5.000000, -9.000000 ], 
+			"Local Rotation": [ 0.000000, 270.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -9.000000, 5.000000, -12.000000 ], 
+			"Local Rotation": [ 0.000000, 270.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -9.000000, 5.000000, -15.000000 ], 
+			"Local Rotation": [ 0.000000, 270.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -9.000000, 5.000000, -18.000000 ], 
+			"Local Rotation": [ 0.000000, 270.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -9.000000, 5.000000, -21.000000 ], 
+			"Local Rotation": [ 0.000000, 270.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -8.400000, 5.000000, -23.450001 ], 
+			"Local Rotation": [ 0.000000, 240.300003, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -6.000000, 5.000000, -24.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ -3.000000, 5.000000, -24.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		},
+		{
+
+			"Name" : "Node",
+			"Local Position": [ 0.000000, 5.000000, -24.000000 ], 
+			"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+			"Local Scale": [ 0.500000, 0.500000, 1.000000 ], 
+			"Component" :
+			[{
+				"Type" : "Mesh",
+				"Mesh Name" : "Cube2.obj::Cube",
+				"Material":{
+					"Ambient" : [ 1.000000, 1.000000, 1.000000 ],
+					"Diffuse" : [ 1.000000, 1.000000, 1.000000 ],
+					"Specular" : [ 1.000000, 1.000000, 1.000000 ],
+					"Shininess" : 32.000000,
+					"Normal" : ""
+				},
+				"Texture":{
+					"Name": "Assets/textures/wall.jpg",
+					"Filter": 9729,
+					"Wrapping": 10497
+				},
+				"Shader" : "Source/shaders/DefaultShader"
+			},
+			{
+				"Type" : "Box Collider",
+				"Size" : [ 0.500000, 0.500000, 1.000000 ],
+				"Offset" : [ 0.000000, 0.000000, 0.000000 ],
+				"Friction" : [ 1.000000, 1.000000, 1.000000 ],
+				"Static" : 1
+			}],
+			"Children": []
+		}]
+	},
+	{
+
+		"Name" : "Node",
+		"Local Position": [ 0.000000, 2.600000, 8.000000 ], 
+		"Local Rotation": [ 0.000000, 0.000000, 0.000000 ], 
+		"Local Scale": [ 1.000000, 1.000000, 1.000000 ], 
+		"Component" :
+		[{
+			"Type" : "PauseMenu",
+			"SceneName" : "MainMenu"
+		}],
+		"Children": []
+	}]
+}

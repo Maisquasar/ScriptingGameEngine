@@ -1,0 +1,163 @@
+App.cpp(212): Sucessfuly Load Config File
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/DefaultShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/DefaultShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/DefaultShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/RGBShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/RGBShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/RGBShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/NormalShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/NormalShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/NormalShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/NoLightsShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/NoLightsShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/NoLightsShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/NormalMappingShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/NormalMappingShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/NormalMappingShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/ScreenShader/DefaultScreenShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/ScreenShader/DefaultScreenShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/ScreenShader/DefaultScreenShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/ScreenShader/InvertedShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/ScreenShader/InvertedShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/ScreenShader/InvertedShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/ScreenShader/BlackAndWhite/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/ScreenShader/BlackAndWhite/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/ScreenShader/BlackAndWhite
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/ScreenShader/KernelShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/ScreenShader/KernelShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/ScreenShader/KernelShader
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/ScreenShader/TheDrugOne/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/ScreenShader/TheDrugOne/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/ScreenShader/TheDrugOne
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/ScreenShader/TheDrugOnev2/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/ScreenShader/TheDrugOnev2/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/ScreenShader/TheDrugOnev2
+Shader.cpp(30): Successfully loaded Shader: Source/shaders/ScreenShader/TVShader/vertex.glsl
+Shader.cpp(53): Successfully loaded Shader: Source/shaders/ScreenShader/TVShader/fragment.glsl
+Shader.cpp(77): Successfully link Shader Source/shaders/ScreenShader/TVShader
+App.cpp(254): Shaders Loading Time : 0.00904 seconds.
+
+PythonScriptManager.cpp(35): Module Camera Loaded
+PythonScriptManager.cpp(35): Module PlayerScript Loaded
+PythonScriptManager.cpp(35): Module Rigidbody Loaded
+PythonScriptManager.cpp(35): Module SceneLoading Loaded
+PythonScriptManager.cpp(35): Module SceneSaving Loaded
+App.cpp(524): Scene Loading Time : 0.11925 seconds.
+
+TxtFile.cpp(14): Sucessfuly load File : Assets/scenes/Default.txt
+TxtFile.cpp(14): Sucessfuly load File : Assets/scenes/Test2.txt
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/folder.png With Id : 10
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Mario.png With Id : 13
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/0.png With Id : 1
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/normal_map.jpg With Id : 15
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/11400-normal.jpg With Id : 2
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Blank.png With Id : 3
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Brick_Wall_019_basecolor.jpg With Id : 4
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Brick_Wall_019_normal.jpg With Id : 5
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/mtl.png With Id : 14
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/ChienChat.png With Id : 7
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/file.png With Id : 9
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/grass.png With Id : 11
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/normal_mapping_normal_map.png With Id : 16
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/obj.png With Id : 17
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/pillar.png With Id : 18
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/squid.png With Id : 24
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/stormcloud_2_back.png With Id : 27
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/sample.png With Id : 21
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Susio.png With Id : 31
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/sample2.png With Id : 22
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Triforce.png With Id : 33
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/stormcloud_4_top.png With Id : 29
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/stormcloud_5_down.png With Id : 30
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/TestScene.png With Id : 32
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/txt.png With Id : 34
+Model3D.cpp(97): Cannot Find Texture Assets/textures/wallpaper.jpg !
+Model3D.cpp(97): Cannot Find Texture Assets/textures/Seamless carpet fabric yellow.jpg !
+Model3D.cpp(97): Cannot Find Texture Assets/textures/CeilingTiles.jpg !
+Model3D.cpp(97): Cannot Find Texture Assets/textures/wallpaper.jpg !
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/wall.jpg With Id : 35
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Yoshi_3dsYoshiEtc.png With Id : 37
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Yoshi_3dsYoshiEye_0.png With Id : 38
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/YoshSS03.png With Id : 40
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/YoshSS06.png With Id : 42
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Cube2.obj
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/stormcloud_0_front.png With Id : 25
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/Yoshi_3dsYoshiHand.png With Id : 39
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/YoshSS05.png With Id : 41
+App.cpp(415): Loaded Cube2.obj::Cube
+SceneLoader.cpp(196): File Assets/meshs/Mario.mtl cannot be found
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Gizmo.obj
+App.cpp(415): Loaded Gizmo.obj::Material.001
+SceneLoader.cpp(196): File Assets/meshs/pillar.mtl cannot be found
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Plane.obj
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/pillar.obj
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/stormcloud_1_right.png With Id : 26
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Plane2.obj
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/stormcloud_3_left.png With Id : 28
+App.cpp(415): Loaded pillar.obj::dungoen_pillar_Mesh
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/SkyBox.obj
+App.cpp(415): Loaded SkyBox.obj::skybox_top
+SceneLoader.cpp(196): File Assets/meshs/Susio.mtl cannot be found
+App.cpp(415): Loaded SkyBox.obj::skybox_right
+SceneLoader.cpp(196): File Assets/meshs/TestScene.mtl cannot be found
+App.cpp(415): Loaded SkyBox.obj::skybox_front
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Triforce.obj
+App.cpp(415): Loaded Triforce.obj::Material.097_59C4DE66_c.png
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Sphere.obj
+App.cpp(415): Loaded TestScene.obj::Cube.001
+App.cpp(415): Loaded Sphere.obj::Sphere
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/TestScene.obj
+App.cpp(415): Loaded SkyBox.obj::skybox_down
+App.cpp(415): Loaded SkyBox.obj::skybox_left
+App.cpp(415): Loaded SkyBox.obj::skybox_back
+App.cpp(415): Loaded Gizmo.obj::Material.002
+App.cpp(415): Loaded Gizmo.obj::Material.003
+App.cpp(415): Loaded Plane.obj::None
+App.cpp(415): Loaded Plane2.obj::None
+App.cpp(415): Loaded TestScene.obj::Sphere
+App.cpp(415): Loaded Yoshi.obj::Material__0.001
+App.cpp(415): Loaded Yoshi.obj::04___Default.001
+App.cpp(415): Loaded Yoshi.obj::Material__2.001
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Yoshi.obj
+App.cpp(415): Loaded Yoshi.obj::Material__1.001
+App.cpp(415): Loaded Yoshi.obj::03___Default.001
+App.cpp(415): Loaded Yoshi.obj::05___Default.001
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/mojo.obj
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Mario.obj
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Susio.obj
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/CarpetBake4.png With Id : 6
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/CoulmnsBaked.png With Id : 8
+App.cpp(415): Loaded Mario.obj::Mario
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/RoofBaked4.png With Id : 20
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/LiftBaked.png With Id : 12
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/SkirtingsBaked.png With Id : 23
+Model3D.cpp(27): Successfully loaded model: Assets/meshs/Backrooms.obj
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/PlugsBaked.png With Id : 19
+Texture.cpp(57): Successfully loaded Texture: Assets/textures/WallsBaked.png With Id : 36
+App.cpp(415): Loaded mojo.obj::material_0
+App.cpp(415): Loaded Backrooms.obj::PlugsBaked
+App.cpp(415): Loaded Susio.obj::Mario
+App.cpp(415): Loaded Backrooms.obj::light
+App.cpp(415): Loaded Backrooms.obj::Lightsurround
+App.cpp(415): Loaded Backrooms.obj::LiftBake
+App.cpp(415): Loaded Backrooms.obj::LiftWall
+App.cpp(415): Loaded Backrooms.obj::WallsBaked
+App.cpp(415): Loaded Backrooms.obj::CarpetBake4
+App.cpp(415): Loaded Backrooms.obj::RoofBaked
+App.cpp(415): Loaded Backrooms.obj::SkirtingsBaked.001
+App.cpp(415): Loaded Backrooms.obj::ColumnsBaked
+LoadingWindow.cpp(43): Everythings has been load !
+LoadingWindow.cpp(47): Loading Time : 1.89013 seconds.
+
+App.cpp(458): Sucessfuly Save Scene
+App.cpp(524): Scene Loading Time : 0.07396 seconds.
+
+App.cpp(548): Sucessfuly delete Assets/scenes/TEMPSCENE.json
+App.cpp(557): Can't delete Assets/scenes/TEMPSCENE.txt
+App.cpp(524): Scene Loading Time : 0.02136 seconds.
+
+App.cpp(524): Scene Loading Time : 0.01399 seconds.
+
+App.cpp(458): Sucessfuly Save Scene
+App.cpp(524): Scene Loading Time : 0.07896 seconds.
+

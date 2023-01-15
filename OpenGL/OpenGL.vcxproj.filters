@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Ressources">
+      <UniqueIdentifier>{57f1c5da-56b3-488c-9e05-bfe5419778b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Debug">
+      <UniqueIdentifier>{501d93a5-0834-4146-9690-7cf01b77d537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Debug">
+      <UniqueIdentifier>{0508c8bc-3390-4b7e-a224-9f721ab6f17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Maths">
+      <UniqueIdentifier>{eab1b255-9f4b-4b03-9e63-bbeb310016c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Maths">
+      <UniqueIdentifier>{9c6de009-2669-4402-92d3-0683e0082760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ressources">
+      <UniqueIdentifier>{b98ddc1b-c1fd-432a-b840-f57083550cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\LowRenderer">
+      <UniqueIdentifier>{214bf7c1-4d89-4535-b811-642c126b5765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\LowRenderer">
+      <UniqueIdentifier>{8b85786e-f3ce-453a-bfb6-edfb20bad5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders">
+      <UniqueIdentifier>{f7313e39-ae47-49d7-9c8d-075cf2a85725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ImGui">
+      <UniqueIdentifier>{a7aa81db-ca69-448a-9fdb-b05bfbe0670c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ImGui">
+      <UniqueIdentifier>{f8884a6b-f76a-4e04-bf7f-dec49d134c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Data">
+      <UniqueIdentifier>{f88bf16d-bccc-4403-911d-a4c5e8019939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Data">
+      <UniqueIdentifier>{19826074-c4fa-4e97-8ca9-5e8020b49d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\Default">
+      <UniqueIdentifier>{92638454-c4d7-455e-80aa-92421cf0e634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\Normal">
+      <UniqueIdentifier>{0b35926a-aa35-41a7-9754-016a90bbc694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\RGB">
+      <UniqueIdentifier>{0db56ff3-1cae-4aac-89c7-47a82447f10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ressources\Components">
+      <UniqueIdentifier>{63444933-ad57-4c78-b723-de7c2f80229f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\NoLights">
+      <UniqueIdentifier>{de353058-9fe4-433d-8233-d94041d9f3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\NormalMapping">
+      <UniqueIdentifier>{e629e01b-3f05-48ec-bbf0-8c7283fff14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\ScreenShaders">
+      <UniqueIdentifier>{01d6a194-88f5-46cc-b89d-b80aacbb763a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\ScreenShaders\DefaultScreenShader">
+      <UniqueIdentifier>{1adf859f-edf3-4690-9e14-e0cd0a008f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\ScreenShaders\InvertedColor">
+      <UniqueIdentifier>{2e7f702e-302c-45d8-aab3-f26c3a3af586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\ScreenShaders\BlackAndWhite">
+      <UniqueIdentifier>{c5110dcd-2922-44b1-b0fb-6ffd1cb2674a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\ScreenShaders\Kernel">
+      <UniqueIdentifier>{0f597c60-f6d8-4d90-aa1e-04d43eda1a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders\ScreenShaders\TheDrugOne">
+      <UniqueIdentifier>{54fdc092-462b-445d-a4cc-862d46925668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Physic">
+      <UniqueIdentifier>{06f1c61e-9c5f-4f3f-84cd-4c0fc55ddc97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Physic">
+      <UniqueIdentifier>{62a45b92-87fb-4149-bb52-7f061dbba34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ressources\Components">
+      <UniqueIdentifier>{ee9f0291-8133-4753-90c7-099744e44b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ui">
+      <UniqueIdentifier>{4d00b1fa-24b9-414a-b516-361c6daf3e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ui">
+      <UniqueIdentifier>{eb42f53c-a6ec-42bf-b5c0-ad86d25e3cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts Python">
+      <UniqueIdentifier>{04e677f8-1977-4d10-afbb-e6cf6eae0eb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\src\Core\App.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\ResourcesManager.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\Debug\Log.cpp">
+      <Filter>Fichiers sources\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\Maths\Maths.cpp">
+      <Filter>Fichiers sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Model3D.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\Mesh.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Texture.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\IResource.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\Camera.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\Shader.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\Input.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\Light.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\LightManager.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGui\imgui.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGui\imgui_demo.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGui\imgui_draw.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGui\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGui\imgui_tables.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ImGui\imgui_widgets.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\DataStructure\Node.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\glad\glad.c">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\Transform.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\SceneLoader.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\FrameBuffer.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\LowRenderer\ShadowMap.cpp">
+      <Filter>Fichiers sources\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Physics\Colliders.cpp">
+      <Filter>Fichiers sources\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Physics\Rigidbody.cpp">
+      <Filter>Fichiers sources\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Components\PlayerScript.cpp">
+      <Filter>Fichiers sources\Ressources\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Physics\CollisionManager.cpp">
+      <Filter>Fichiers sources\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Components\MainMenu.cpp">
+      <Filter>Fichiers sources\Ressources\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\DataStructure\PlayerPrefs.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Components\PauseMenu.cpp">
+      <Filter>Fichiers sources\Ressources\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Component.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Components\CameraLock.cpp">
+      <Filter>Fichiers sources\Ressources\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\DataStructure\Serializer.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\TxtFile.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\DataStructure\ThreadManager.cpp">
+      <Filter>Fichiers sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\Material.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\Debug\Commands.cpp">
+      <Filter>Fichiers sources\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\DataStructure\FileExplorer.cpp">
+      <Filter>Fichiers sources\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Core\DataStructure\Inspector.cpp">
+      <Filter>Fichiers sources\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Ui\EditorUi.cpp">
+      <Filter>Fichiers sources\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Ui\LoadingWindow.cpp">
+      <Filter>Fichiers sources\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\PythonScript.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\src\Resources\PythonScriptManager.cpp">
+      <Filter>Fichiers sources\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationController.cpp">
+      <Filter>Fichiers sources\Ressources\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\includes\Core\App.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\Debug\Log.hpp">
+      <Filter>Fichiers d%27en-tête\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\Debug\Assertions.hpp">
+      <Filter>Fichiers d%27en-tête\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\Maths\Maths.hpp">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\ResourcesManager.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Model3D.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\LowRenderer\Mesh.hpp">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Texture.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\IResource.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\LowRenderer\Camera.hpp">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Shader.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\Input.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\LowRenderer\Light.hpp">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\LowRenderer\LightManager.hpp">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imconfig.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imgui.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imgui_impl_glfw.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imgui_impl_opengl3.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imgui_internal.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imstb_rectpack.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imstb_textedit.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ImGui\imstb_truetype.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\DataStructure\Node.hpp">
+      <Filter>Fichiers d%27en-tête\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Component.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\glad\glad.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GLFW\glfw3.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GLFW\glfw3native.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\KHR\khrplatform.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\STB_Image\stb_image.h">
+      <Filter>Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\LowRenderer\Transform.hpp">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\SceneLoader.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Components\RotationController.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\LowRenderer\FrameBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\LowRenderer\ShadowMap.hpp">
+      <Filter>Fichiers d%27en-tête\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\Debug\Commands.hpp">
+      <Filter>Fichiers d%27en-tête\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Physic\Colliders.hpp">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Physic\Rigidbody.hpp">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Components\CameraLock.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Components\PlayerScript.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Physic\CollisionManager.hpp">
+      <Filter>Fichiers d%27en-tête\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Components\MainMenu.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\DataStructure\PlayerPrefs.hpp">
+      <Filter>Fichiers d%27en-tête\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Components\PauseMenu.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\DataStructure\Serializer.hpp">
+      <Filter>Fichiers d%27en-tête\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\TxtFile.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Core\DataStructure\ThreadManager.hpp">
+      <Filter>Fichiers d%27en-tête\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\Material.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Ui\FileExplorer.hpp">
+      <Filter>Fichiers d%27en-tête\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Ui\Inspector.hpp">
+      <Filter>Fichiers d%27en-tête\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Ui\EditorUi.hpp">
+      <Filter>Fichiers d%27en-tête\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Ui\LoadingWindow.hpp">
+      <Filter>Fichiers d%27en-tête\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Ui\UiWindow.hpp">
+      <Filter>Fichiers d%27en-tête\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\PythonScript.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\includes\Resources\PythonScriptManager.hpp">
+      <Filter>Fichiers d%27en-tête\Ressources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\includes\Core\Maths\Maths.inl">
+      <Filter>Fichiers d%27en-tête\Maths</Filter>
+    </None>
+    <None Include="Source\shaders\DefaultShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\Default</Filter>
+    </None>
+    <None Include="Source\shaders\DefaultShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\Default</Filter>
+    </None>
+    <None Include="Source\shaders\NormalShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\Normal</Filter>
+    </None>
+    <None Include="Source\shaders\NormalShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\Normal</Filter>
+    </None>
+    <None Include="Source\shaders\RGBShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\RGB</Filter>
+    </None>
+    <None Include="Source\shaders\RGBShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\RGB</Filter>
+    </None>
+    <None Include="Source\shaders\NoLightsShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\NoLights</Filter>
+    </None>
+    <None Include="Source\shaders\NoLightsShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\NoLights</Filter>
+    </None>
+    <None Include="Source\shaders\NormalMappingShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\NormalMapping</Filter>
+    </None>
+    <None Include="Source\shaders\NormalMappingShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\NormalMapping</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\DefaultScreenShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\DefaultScreenShader</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\DefaultScreenShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\DefaultScreenShader</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\InverseShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\InvertedColor</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\InverseShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\InvertedColor</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\BlackAndWhite\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\BlackAndWhite</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\BlackAndWhite\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\BlackAndWhite</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\KernelShader\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\Kernel</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\KernelShader\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\Kernel</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\TheDrugOne\fragment.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\TheDrugOne</Filter>
+    </None>
+    <None Include="Source\shaders\ScreenShader\TheDrugOne\vertex.glsl">
+      <Filter>Fichiers d%27en-tête\Shaders\ScreenShaders\TheDrugOne</Filter>
+    </None>
+    <None Include="Source\scripts\SceneLoading.py">
+      <Filter>Scripts Python</Filter>
+    </None>
+    <None Include="Source\scripts\Camera.py">
+      <Filter>Scripts Python</Filter>
+    </None>
+    <None Include="Source\scripts\PlayerScript.py">
+      <Filter>Scripts Python</Filter>
+    </None>
+    <None Include="Source\scripts\Rigidbody.py">
+      <Filter>Scripts Python</Filter>
+    </None>
+    <None Include="Source\scripts\SceneSaving.py">
+      <Filter>Scripts Python</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

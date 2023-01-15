@@ -1,0 +1,51 @@
+
+Name : Mario.obj
+Parent : Test
+Number of Children : 1
+Local : 
+	Position { 0.000000, 2.600000, -5.000000 } 
+	Rotation { 0.000000, 0.000000, 0.000000 } 
+	Scale { 1.000000, 1.000000, 1.000000 } 
+World Matrix : { 1.00 0.00 0.00 0.00}{ 0.00 1.00 0.00 2.60}{ 0.00 0.00 1.00 -5.00}{ 0.00 0.00 0.00 1.00}
+
+	Name : Mario
+	Parent : Mario.obj
+	Number of Children : 0
+	Local : 
+		Position { 0.000000, 0.000000, 0.000000 } 
+		Rotation { 0.000000, 0.000000, 0.000000 } 
+		Scale { 1.000000, 1.000000, 1.000000 } 
+	World Matrix : { 1.00 0.00 0.00 0.00}{ 0.00 1.00 0.00 2.60}{ 0.00 0.00 1.00 -5.00}{ 0.00 0.00 0.00 1.00}
+	Component :
+	Type : Mesh
+	Mesh Name : Mario.obj::Mario
+	Material Default
+		Ambient { 1.000000, 1.000000, 1.000000 } 
+		Diffuse { 1.000000, 1.000000, 1.000000 } 
+		Specular { 1.000000, 1.000000, 1.000000 } 
+		Shininess { 32.000000 } 
+		Normal 
+	Texture Assets/textures/Mario.png
+		Data : 33
+		Index : 37
+		Sampler : 32
+		Filter : 9729
+		Wrapping : 10497
+	Shader Name : Source/shaders/DefaultShader
+	Component :
+	Type : Sphere Collider
+		Radius : 1.000000
+		Center { 0.000000, 0.000000, 0.000000 } 
+		Friction { 1.000000, 1.000000, 1.000000 }
+	Component :
+	Type : Camera Lock
+	Component :
+	Type : PlayerScript
+	Speed : 5.000000
+	Jump : 5.000000
+	Component :
+	Type : Rigidbody
+		Gravity : -9.810000
+		Mass : 1.000000
+		Max : 10.000000
+		Friction { 1.000000, 1.000000, 1.000000 }
